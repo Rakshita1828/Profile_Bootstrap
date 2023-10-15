@@ -1,0 +1,888 @@
+<html>
+    <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+			<link href="../RaKsHiTa/font-awesome4.7.0.1/css/font-awesome.min.css" rel="stylesheet"/>
+			<script src="https://code.jquery.com/jquery-3.6.0.js"/></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<style>
+	    .aboutone
+		{
+		
+		   font-size:30px;
+		font-family:gabriola;
+		padding-top:12px;
+		padding-left:12px;
+		line-height:53px;
+		word-spacing:10px;
+		color:#171a1e;
+		
+		}
+	    
+		.parhome>p>i:hover
+		{
+		   color:blue;
+		
+		}
+		#menu .navbar-nav>li
+		{
+		    font-size:20px;
+		}
+		 #menu .navbar-nav>li>a
+		{
+		   color:white;
+		
+		
+		}
+		.one .row
+		{
+		   font-family:gabriola;
+		   padding:20px;
+		   font-size:30px;
+		   
+		
+		
+		}
+		.one .row .col-xs-3:hover
+		{
+		   color:grey;
+		}
+		.two .col-xs-2 .img
+		{
+		   padding:20px;
+		   
+		   
+		   
+		
+		}
+			
+	
+
+  .card {
+        width: 100%;
+        height:33%;
+        background: url("images/playing.jpg") no-repeat;
+        display: inline-block;
+		background-size:contain;
+		
+    }
+    .card:hover {
+        background: url("images/playing.jpeg") no-repeat;
+		background-size:contain;
+    }
+	.card1
+	{
+	   width:100%;
+	   height:33%;
+	   background:url("images/dancee.jpg") no-repeat;
+	   display:inline-block;
+	   background-size:contain;
+	
+	}
+	.card1:hover
+	{
+	    background:url("images/danc+.jpg") no-repeat;
+		display:inline-block;
+		background-size:contain;
+	
+	}
+	.card2
+	{
+	   width:100%;
+	   height:33%;
+	   background:url("images/travel.png") no-repeat;
+	   display:inline-block;
+	   background-size:contain;
+	
+	}
+	.card2:hover
+	{
+	   background:url("images/nature.jpg") no-repeat;
+	   background-size:contain;
+	 
+	}
+	ul.social-network li {
+			display: inline;
+			margin:2px;
+		}
+		 a.icoRss:hover {
+			background-color:#F56505;
+		}
+		a.icoFacebook:hover {
+			background-color:#3B5998;
+		}
+		a.icoTwitter:hover {
+			background-color:#33ccff;
+		}
+		 a.icoGoogle:hover {
+			background-color:#BD3518;
+		}
+		a.icoVimeo:hover {
+			background-color:#0590B8;
+		}
+		a.icoLinkedin:hover {
+			background-color:#007bb7;
+		}
+		
+		a.socialIcon:hover, .socialHoverClass {
+			color:#44BCDD;
+		}
+
+		.social-circle li a {
+			display:inline-block;
+			border-radius:50%;
+			text-align:center;
+			width:30px;
+			height:30px;
+			font-size:15px;
+		}
+		.social-circle li i {
+			margin:0;
+			line-height:30px;
+			text-align:center;
+		}
+
+		.social-circle li a:hover i, .triggeredHover {
+			
+			transform: rotate(360deg);
+
+			transition: all 0.2s;
+		}
+		.social-circle i {
+			color: #fff;
+			transition: all 0.8s;
+		}
+
+		.social-circle li a {
+		 background-color:black;   
+		}
+    .address:hover
+	{
+	   background:grey;
+	   color:white;
+	
+	}
+	.name:hover
+	{
+	   background:grey;
+	   color:white;
+	
+	}
+	.comments:hover
+	{
+	   background:grey;
+	   color:white;
+	
+	}
+
+	#portfolio {
+    background-color:#cccccc;
+	margin-top:30px;
+	
+}
+
+#portfolio .section-subheading {
+    color: #8c9099;  
+}
+ .thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(0,0,0,0.489);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff
+	!important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+h4
+{
+	color:white;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+.social-circle li
+{
+		display:inline-block;
+		padding:8px;
+	
+	
+}
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+	font-size:22px;
+
+
+	
+	
+}
+
+social-circle li a {
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    font-size:50px;
+	display:inline-block;
+
+}
+social-circle li a:hover
+{
+	text-decoration:none;
+}
+
+<!--i am rex-->
+<!--{
+
+		margin: 0; padding: 0; box-sizing: border-box; font-family: calibri; outline: none; text-decoration: none;
+	}-->
+	.bcground span{
+		 display:flex; justify-content:left;
+		 align-items:left; 
+	}
+	.bcground h1{
+		width: 0ch;
+		overflow:hidden;	
+		white-space:nowrap;
+		animation:text 5s steps(24) infinite alternate; 
+		border-right:3px solid black;
+		font-size: 30px;
+		text-shadow: 2px 3px 4px black; 
+		position:absolute;
+		top:100px;
+	
+	}
+	@keyframes text{
+		0%{
+			width: 0ch;
+		}
+		50%{
+			width: 24ch;
+		}
+	}
+
+
+	
+		
+		
+		
+	</style>
+	<body>
+		
+	   <nav class="navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+	
+					<!-- navbar-toggle:- used to set  button position -->
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<!-- Menus -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+			
+				</div>
+			</div>
+		</nav>
+							<script>
+								$('.navbar-collapse ul li a').click(function() {
+								$('.navbar-toggle:visible').click();
+								});
+							</script>
+							<script>$(document).on('click','.navbar-collapse.in',function(e) {
+							if( $(menu-nav.target).is('a') && ( $(menu-nav.target).attr('nav navbar-nav') != 'dropdown-toggle' ) ) {
+							$(this).collapse('hide');
+							}});</script>
+						</div>	
+			
+		
+			
+		<!-- background image-->
+		
+		<div class="container-fluid bcground">
+			    <img src="images/girl.jpg" class="img-responsive" style="height:550px;width:100%;"/>
+				<span><h1 class="alert">Hey,I am Rakshita Sharma</h1></span>
+		</div>
+		
+		
+		
+		
+		<!--About-->
+		<div class="container" id="about">
+		     <h1 align="center" class="alert alert-default">About</h1>
+			 <div class="col-lg-4 col-xs-12">
+			     <img src="images/i.jpeg" class="img-responsive img-thumbnail" style="width:100% ;height:60%;font-family:gabriola;"/>
+			 </div>
+			 <div class="col-xs-8 col-xs-12">
+			     <p align="justify" class="aboutone">Hey,I am Rakshita Sharma,doing B-tech in Computer Science from <a href="https://www.lnmiit.ac.in/">LNMIIT Jaipur</a>,live in the city of arravalis,Ajmer.I have completed my 12th from CBSE boards .With serenity kind of nature,i do my work with dedication.Believe in the thought that "It's never too late to start working on yourself,Act now,Don't stop,enjoy the RIDE"
+				 </p>
+			 </div>
+			 
+		</div>
+		<!--Education-->
+	
+		<div class="container" id="education" style="padding:30px;">
+		    <h1 align="center" class="alert alert-default">Education</h1>
+			<div class="col-lg-4">
+				<div class="panel" style="background:grey;color:white;border:2px solid white;padding-top:20px;">
+					<div class="panel-heading" style="font-weight:bold;font-size:30px;">
+						LNMIIT<br>
+						2019-2022
+					</div>
+					<div class="panel-body">
+						doing B-tech in computer science
+						from Laxmi nivas mittal institute of information technology.
+						located in Jaipur,Rajasthan.
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="panel" style="background:grey;color:white;border:2px solid white;padding-top:20px;">
+					<div class="panel-heading" style="font-weight:bold;font-size:30px;">
+						MPS<br>
+						2016
+					</div>
+					<div class="panel-body">
+						have passed 10th from Maheshwari 
+						Public School CBSE Board,located in ajmer,Rajasthan.
+						got 10 cgpa in class 10th.
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="panel" style="background:grey;color:white;border:2px solid white;padding-top:20px;">
+					<div class="panel-heading" style="font-weight:bold;font-size:30px;">
+						Bright India School<br>
+						2018
+					</div>
+					<div class="panel-body">
+						have passed 12th from Bright India Public School,located in ajmer,Rajasthan.
+					     got 84.3% in class 12th CBSE Boards.
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	
+		
+		<!--Skills-->
+		
+		<div class="container" id="skills" style="padding:30px;">
+		    <h2 class="skill alert alert-default" align="center">SKILLS</h2>
+			<div class="two">
+			
+			  <div class="col-xs-12 col-lg-4">
+			    <div class="panel panel-danger" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/c.png" class="img-responsive" style="height:150px;width:150px;"/>
+					</div>
+					<div class="panel-footer">
+					    <p align="justify">C programming is a general-purpose, procedural, imperative computer programming language.It is Structured language.</p>
+				    </div>
+				</div>
+		      </div>
+			  <div class="col-xs-12 col-lg-4">
+				<div class="panel panel-danger" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/c++.jpg" class="img-responsive" style="height:150px;width:150px;"/>
+					</div>
+					<div class="panel-footer">
+					    <p align="justify">C++ runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.</p>
+					</div>
+					
+				</div>
+			  </div>
+			  <div class="col-xs-12 col-lg-4">
+				<div class="panel panel-danger" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/DSA.png" class="img-responsive" style="height:150px;width:150px;"/>
+					</div>
+					<div class="panel-footer">
+					    <p align="justify"> a data structure is a data organization, management, and storage format that enables efficient access and modification.
+						</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-xs-12 col-lg-4">
+				<div class="panel panel-danger" style="padding-top:10px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/html.jpg" class="img-responsive" style="height:150px;width:150px;"/>
+					</div>
+					<div class="panel-footer">
+					   <p align="justify">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.
+						</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-xs-12 col-lg-4">
+				<div class="panel panel-danger" style="padding-top:10px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/csss.png" class="img-responsive" style="height:150px;width:150px;"/>
+					</div>
+					<div class="panel-footer">
+					    <p align="justify">CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts.
+						</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-xs-12 col-lg-4">
+				<div class="panel panel-danger" style="padding-top:10px;">
+				    <div class="panel-body" align="center">
+					    <img src="images/Bootstrap.png" class="img-responsive" style="height:150px;width:150px;"/>
+					 
+					</div>
+					<div class="panel-footer">
+					    <p align="justify">Bootstrapping is the process of loading a set of instructions when a computer is first turned on or booted.
+						</p>
+					</div>
+				</div>
+			  </div>
+			  
+			</div>
+			</div>
+			
+		
+		     
+		<!--hobbies-->
+	
+		<div class="container" id="hobbies" style="padding:30px;">
+		    <h2 class="hob" align="center">My Hobbies</h2>
+			<div class="three">
+			  <div class="col-lg-4 col-xs-12" style="padding-top:20px;">
+			    <div class="panel panel-danger" class="first" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					      <span class="card">
+						  </span>
+					</div>
+					<div class="panel-footer" style="background:#bb33ff;" align="center">
+					    <h2 style="color:white;">Badminton</h2>
+						
+					</div>
+				</div>
+		      </div>
+			  <div class="col-lg-4 col-xs-12" style="padding-top:20px;">
+				<div class="panel panel-danger" class="second" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					    <span class="card1"></span>
+					</div>
+					<div class="panel-footer" style="background:#bb33ff;" align="center">
+					    <h2 style="color:white;">Dance</h2>
+					   
+					</div>
+					
+				</div>
+			  </div>
+			  <div class="col-lg-4 col-xs-12" style="padding-top:20px;">
+				<div class="panel panel-danger" class="third" style="padding-top:20px;">
+				    <div class="panel-body" align="center">
+					    <span class="card2"></span>
+					</div>
+					<div class="panel-footer" style="background:#bb33ff;" align="center">
+					    <h2 style="color:white;">Travelling</h2>
+					</div>
+				</div>
+			  </div>
+			  
+			</div>
+		
+		    
+		</div>
+	
+		<!--portfolio-->
+		   <div id="portfolio" class="gallery" style="padding:30px;">
+		 <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="pro">Photo Gallery</h2>
+                        <h4 style="color:white;padding-bottom:20px">I am sharing some photos with you.</h4>
+                    </div>
+                </div>
+               
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Me</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#First">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="First">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>I am Rakshita Sharma</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/rr.jpeg" style="height:50%;width:50%" class="img-responsive" />
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/rr.jpeg"  style="width:350px; height:200px"/>
+                     </div>				
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Friends</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#second">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="second">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>old good days!!</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/friends.jpeg" style="height:50%;width:65%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/friends.jpeg"  style="width:350px; height:200px;"/>
+                     </div>				
+                    </div>
+                
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>kota</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#third">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="third">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>nice days!!</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/kota1.jpeg" style="height:50%;width:65%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/kota2.jpeg"  style="width:350px; height:200px;"/>
+                     </div>				
+                    </div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Cousins</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#fourth">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="fourth">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>Pic with Cousins</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/cousins.jpeg" style="height:50%;width:75%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/cousins.jpeg"  style="width:350px; height:200px;"/>
+                     </div>				
+                    </div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Memories</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#fifth">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="fifth">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>Memories</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/happy moment.jpeg" style="height:50%;width:100%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/happy moment.jpeg" style="width:350px; height:200px;"/>
+                     </div>				
+                    </div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Family</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#sixth">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="sixth">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>pic with Family</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/family.jpeg" style="height:50%;width:100%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/family.jpeg"  style="width:350px; height:200px;"/>
+                     </div>				
+                    </div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Childhood</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#seventh">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="seventh">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>Childhood</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/childhood.jpeg" style="height:50%;width:80%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/childhood.jpeg"  style="width:350px; height:200px;"/>
+
+                     </div>				
+                   </div>
+				   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Birthday</h4>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#eight">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="eight">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+									<h1>Birthday memories</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px" align="center">
+                                      <img src="images/bday2.jpeg" style="height:50%;width:80%" class="img-responsive "/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class=" social-circle" >
+                                                <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="images/bday2.jpeg"  style="width:350px; height:200px;"/>
+                     </div>				
+                   </div>
+                </div>
+			</div>
+       
+       
+		<!-- Contact -->	
+                  		
+		  <div class="container-fluid" id="contact" style="padding:30px;" >
+		      <h2 align="center" class="h2">Let's Keep in Touch!
+			  </h2>
+			  <p align="center">thanks for visiting my profile.If you like to get in touch with me,please fill out the form below.</p>
+			  <form class="form">
+			     <div class="col-lg-4 col-xs-6 name" style="padding-top:20px;">
+				     <div class="form-group">
+					     <label for="name">Name</label>
+						 <input type="text" class="form-control" placeholder="Enter your name">
+					 </div>
+					 <div class="form-group">
+					     <label for="email">Email</label>
+						 <input type="email" class="form-control" placeholder="Enter Email">
+					 </div>
+				 </div>
+				 </form>
+				 <div class="col-lg-4 col-xs-6 comments" style="padding-top:20px;">
+				     <form class="form">
+					     <div class="form-group">
+						     <label>Comments</label>
+							 <textarea class="form-control" cols="3" rows="5" placeholder="enter your message" style="resize:none;">
+							 </textarea>
+						 </div>
+						 <div class="form-group">
+						     <input type="submit" class="btn btn-success"/>
+						 </div>
+						
+					 </form>
+					 
+					 
+				 </div>
+				 <div class="col-lg-4 col-xs-6 address" style="padding-top:20px;"> 
+				      <label>Address</label>
+					  <p class="alert" align=>
+					      vaishali nagar ,anasagar circular road<br>Ajmer(Rajasthan)
+						  <br/>
+					  </p>
+					  <label>Phone</label>
+					     <p class="alert">
+						     8432538777
+						 </p>
+					   
+				     
+					 
+				 </div>
+				
+			  
+		  </div>
+		  <!--icons-->
+		
+		   <div class="container-fluid" align="center" style="padding:30px;" >
+				<div class="col-md-12">
+					<ul class="social-network social-circle">
+						<li><a href="https://www.rss.com/login" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+						<li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/login" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://plus.google.com/collections/featured" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://in.linkedin.com/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>				
+			</div>
+			
+		  
+		  	
+		
+	</body>
+</html>
